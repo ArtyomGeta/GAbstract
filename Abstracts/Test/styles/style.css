@@ -1,0 +1,11 @@
+body {
+    /*noinspection CssUnknownTarget*/
+    background-image: url('file:///home/artyom/IdeaProjects/GAbstract/src/Клетка.jpg');
+    padding: 30pt;
+}
+p {
+    font-size: 60pt;
+}
+table {
+    font-size: 30pt;
+}

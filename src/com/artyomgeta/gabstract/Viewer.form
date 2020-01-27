@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.artyomgeta.gabstract.Viewer">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="752" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="422c8" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <toolbar id="5bad4">
+            <constraints border-constraint="North"/>
+            <properties>
+              <floatable value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e59fa" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Save"/>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+          <toolbar id="8afbf">
+            <constraints border-constraint="South"/>
+            <properties>
+              <floatable value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6cd33" class="javax.swing.JButton" binding="fullScreenButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="FullScreen"/>
+                </properties>
+              </component>
+              <component id="8ce61" class="javax.swing.JButton" binding="disableButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Disable"/>
+                </properties>
+              </component>
+              <component id="641a7" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="1173d" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Audio: "/>
+                </properties>
+              </component>
+              <component id="bee9e" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="f51fe" class="javax.swing.JButton" binding="playButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Play"/>
+                </properties>
+              </component>
+              <component id="5fe71" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Stop"/>
+                </properties>
+              </component>
+              <component id="1edbb" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="bf849" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Video: "/>
+                </properties>
+              </component>
+              <component id="98ec6" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="ec75c" class="javax.swing.JButton" binding="playButton1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Play"/>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+          <grid id="f83c7" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="West"/>
+            <properties>
+              <preferredSize width="200" height="128"/>
+            </properties>
+            <border type="bevel-lowered"/>
+            <children>
+              <scrollpane id="68442">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="18832" class="javax.swing.JList" binding="list1" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <model/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <toolbar id="6c2a4">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <floatable value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="7f1c5" class="javax.swing.JButton" binding="addButton" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="Add"/>
+                    </properties>
+                  </component>
+                  <component id="46907" class="javax.swing.JButton" binding="removeButton" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="Remove"/>
+                    </properties>
+                  </component>
+                  <component id="fd03c" class="javax.swing.JButton" binding="editButton" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <text value="Edit"/>
+                    </properties>
+                  </component>
+                </children>
+              </toolbar>
+            </children>
+          </grid>
+          <grid id="45093" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="bevel-lowered"/>
+            <children>
+              <scrollpane id="9ee86">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <horizontalScrollBarPolicy value="31"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d37de" class="javax.swing.JEditorPane" binding="editorPane1" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
