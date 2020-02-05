@@ -12,7 +12,7 @@ public abstract class GAbstract {
     }
 
     public static int returnSlidesLength(String abstractName) {
-        return Objects.requireNonNull(new File("Abstracts/" + abstractName + "/").listFiles()).length;
+        return Objects.requireNonNull(new File("Abstracts/" + abstractName + "/slides/").listFiles()).length;
     }
 
 
@@ -20,7 +20,7 @@ public abstract class GAbstract {
     public static String[] returnSlides(String abstractName) {
         String[] returnable = new String[returnSlidesLength(abstractName)];
         for (int i = 0; i < returnSlidesLength(abstractName); i++) {
-            returnable[i] = Objects.requireNonNull(new File("Abstracts/" + abstractName + "/").listFiles())[i].getName();
+            returnable[i] = Objects.requireNonNull(new File("Abstracts/" + abstractName + "/slides/").listFiles())[i].getName();
         }
         return returnable;
     }
